@@ -1,0 +1,89 @@
+.right{
+    border-radius: 15px;
+    position: absolute;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 80px;
+    padding-bottom: 120px;
+    padding-left: 20px;
+    padding-top: 80px;
+    top: 50px;
+    margin-right: 0px;
+    left: 400px;
+    right: 20px;
+    box-shadow: 0px 0px 50px black;
+    /* padding-block: 200px; */
+    text-align: left;
+    
+}
+input[type=text],input[type=email],input[type=tel],input[type=password], select{
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;  
+}
+input[type=submit] {
+            width: 100px;
+            background-color: #4caf50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+            box-shadow: 0px 0px 10px blue;
+
+}
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+body{
+    font-family: Helvetica;
+    font-weight: bold;
+    background-color:yellow;
+}
+p{
+    font-weight: lighter;
+}
+.header1 a{
+color:black;
+background-color:transparent;
+display: block;
+height: 64px;
+font-family: 'Helvetica','Lucida Sans';
+font-weight: 600;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration:none;
+
+transition: background 0.4s;
+}
+.header1 a:hover{
+    text-decoration: underline;
+    box-shadow: #45a049;
+}
+.header1 ul{
+    list-style: none;
+    display: flex;
+}
+.header1 li{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.mf1 {
+    display: inline;
+}
+
+.mf2{
+    display: inline;
+}
+img{
+    position: relative;
+}
